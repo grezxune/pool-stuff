@@ -1,0 +1,8 @@
+{
+  "label": "Rotation",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "These are rotation based games. This means the balls are run out in numerical order and the game is won when the target ball is pocketed."
+  }
+}
