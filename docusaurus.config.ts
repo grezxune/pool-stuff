@@ -68,13 +68,19 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'trainingSidebar',
           position: 'left',
-          label: 'Train!',
+          label: 'Training',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'terminologySidebar',
+          position: 'left',
+          label: 'Terminology',
         },
         {
           type: 'docSidebar',
           sidebarId: 'drillsSidebar',
           position: 'left',
-          label: 'Drill me baby',
+          label: 'Drills',
         },
         {
           type: 'docSidebar',
@@ -139,7 +145,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `${new Date().getFullYear()} Pool Stuff 🎱`,
     },
     prism: {
       theme: prismThemes.github,
