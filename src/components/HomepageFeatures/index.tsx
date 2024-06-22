@@ -10,38 +10,41 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Fun to play',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Pool is a fun game to play with friends and family. It's a great way to
+        spend time together and enjoy each other's company. It's also a great way
+        to socialize and meet new people.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Competitive',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Pool is a competitive game that requires skill and strategy. It's a great
+        way to challenge yourself and improve your skills. It's also a great way
+        to compete against others and see who is the best player.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: `There's always more to learn`,
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Pool is a game that you can always improve at. There are always new
+        techniques and strategies to learn. It's a great way to keep your mind
+        sharp and stay engaged.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

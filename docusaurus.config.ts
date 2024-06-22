@@ -96,7 +96,7 @@ const config: Config = {
         },
         // { to: '/blog', label: 'Articles', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/grezxune/pool-stuff',
           label: 'GitHub',
           position: 'right',
         },
@@ -106,11 +106,27 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Info',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Training',
+              to: '/docs/training',
+            },
+            {
+              label: 'Terminology',
+              to: '/docs/terminology',
+            },
+            {
+              label: 'Drills',
+              to: '/docs/drills',
+            },
+            {
+              label: 'Games',
+              to: '/docs/games',
+            },
+            {
+              label: 'Resources',
+              to: '/docs/resources',
             },
           ],
         },
@@ -118,16 +134,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: "https://discord.gg/fbQ7sCUx7y",
             },
           ],
         },
@@ -140,7 +148,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/grezxune/pool-stuff',
             },
           ],
         },
