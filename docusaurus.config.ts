@@ -94,7 +94,7 @@ const config: Config = {
           position: 'left',
           label: 'Resources',
         },
-        { to: '/blog', label: 'Articles', position: 'left' },
+        // { to: '/blog', label: 'Articles', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
